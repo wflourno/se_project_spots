@@ -48,6 +48,6 @@
   }
 
   .card__title {
-    height: 235px;
+    max-width: 235px;
   }
 }

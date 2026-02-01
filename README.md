@@ -36,7 +36,7 @@ Media queries
 
 This webpage is deployed to GitHub Pages.
 
-- Deployment Link:
+- Deployment Link: (https://github.com/wflourno/se_project_spots.git)
 
 **Figma**
 

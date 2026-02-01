@@ -32,6 +32,10 @@
 
 .profile__description {
   margin: 0;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 500;
+  color: #212121b2;
   display: -webkit-box;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -41,14 +45,14 @@
 }
 
 .profile__edit-btn {
-  margin-top: auto;
+  display: flex;
+  align-items: center;
   opacity: 0.7;
   gap: 8px;
   border: none;
-  background-color: #fcf5e5;
-  width: 107.34px;
-  height: 16px;
+  background-color: transparent;
   padding: 0;
+  cursor: pointer;
 }
 
 .profile__pencil-icon {
@@ -58,7 +62,6 @@
 .profile__edit-btn:hover {
   background-color: #fcf5e5;
   opacity: 1;
-  cursor: pointer;
 }
 
 .profile__add-btn {
@@ -70,6 +73,7 @@
   height: 52px;
   color: #fcf5e5;
   border: none;
+  cursor: pointer;
 }
 
 .profile__plus-icon {
@@ -79,7 +83,6 @@
 .profile__add-btn:hover {
   background-color: #212121;
   opacity: 0.8;
-  cursor: pointer;
 }
 
 @media screen and (max-width: 627px) {
@@ -91,7 +94,7 @@
 
   .profile__avatar {
     margin-right: 12px;
-    margin-bottom: 0;
+    margin-bottom: 12px;
     height: 80px;
     width: 80px;
   }

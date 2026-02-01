@@ -4,6 +4,7 @@
   object-fit: cover;
   display: block;
   border-radius: 8px;
+  margin-bottom: 12px;
 }
 
 .card__content {
@@ -17,24 +18,37 @@
   white-space: nowrap;
   overflow: hidden;
   line-height: 120%;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #212121;
+  max-width: 353px;
 }
 
 .card__like-button {
   background-image: url(../images/heart.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
   width: 23px;
   height: 20px;
   border: none;
   background-color: transparent;
   opacity: 40%;
+  cursor: pointer;
 }
 
 .card__like-button:hover {
   opacity: 1;
-  cursor: pointer;
 }
 
 @media screen and (max-width: 627px) {
   .card__image {
     height: 288px;
+  }
+
+  .card__title {
+    height: 235px;
   }
 }

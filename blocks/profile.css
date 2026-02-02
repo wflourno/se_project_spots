@@ -45,6 +45,7 @@
 }
 
 .profile__edit-btn {
+  margin-top: auto;
   display: flex;
   align-items: center;
   opacity: 0.7;
